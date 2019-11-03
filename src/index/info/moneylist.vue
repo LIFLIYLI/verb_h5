@@ -25,7 +25,7 @@
       },
       methods:{
           move:function(){
-            this.dex+=10
+            this.dex+=100
           }
       }
     }
@@ -42,13 +42,7 @@
     border:1px solid red;
     transform-origin:50% 50% 0;
     border-radius:50%;
-
-  }
-  .noanimation{}
-  .animating{
-    /*animation: mymove 3s;*/
-    transform:rotate(380deg);
-    transition: all 2s;
+    transition: all 1s;
 
   }
   @keyframes mymove
